@@ -1,7 +1,7 @@
 fieldset#search{
     background: #F1F1F1;
     border: 0 none;
-    width: 110.25%;
+    width: 100%;
     border-bottom: 1px solid #CCC;
 }
 .inline{
@@ -16,5 +16,46 @@ fieldset#search{
     display: flex;
     float: left;
 }
+#search #buttonBar .firstRight{
+    width: auto;
+    float: right;
+    margin-left: 2px;
+    text-align: left;
+}
+#search #buttonBar .nextRight{
+    width: auto;
+    float: right;
+    margin-right: 20px;
+    text-align: left;
+}
+table{
+    width: 100%;
+}
+#main{
+    width: 1219px;
+    float: left;
+    text-align: left;
+    margin-left: -97px;
+}
+#mainMargin{
+    margin-left: 125px;
+}
+.menu {
+    overflow: hidden;
+    background-color: #3f51b5;
+    font-size: 16px;
+    max-width: 179px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: -38px;
+}
+.menu a{
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    padding-left: 15px;
+}
+
 html, body { height: 100%;}
 body { margin: 0; font-family: Roboto, 'Helvetica Neue', sans-serif;}
